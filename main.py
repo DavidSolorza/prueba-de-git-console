@@ -11,10 +11,16 @@ print(f"El resultado de la multiplicación es: {resultado}")
 print ("Hola muchachos, parcial en el que me fue pesimo")
 
 print ("Cuadrado")
+
 lado = 5
 for _ in range(lado):
     print("* " * lado)
 
-print("Rectangulo")
+print("Triangulo")
 for i in range(1, lado + 1):
     print(" " * (lado - i) + "*" * (2 * i - 1))
+
+print("Rectangulo")
+lado2 = 10
+for _ in range(lado):
+    print("* " * lado2)
