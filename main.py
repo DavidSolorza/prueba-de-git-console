@@ -1,4 +1,9 @@
-print ("Hola jeronimo como te encuetras el dia de hoy")
-print ("Me alegra mucho mano")
-print ("✌️")
-print ("Ella esta en parcial de macro enconimia ")
+# Solicitar dos números al usuario
+num1 = float(input("Ingresa el primer número: "))
+num2 = float(input("Ingresa el segundo número: "))
+
+# Multiplicación
+resultado = num1 * num2
+
+# Mostrar el resultado
+print(f"El resultado de la multiplicación es: {resultado}")
